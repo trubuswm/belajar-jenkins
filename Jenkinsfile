@@ -1,6 +1,6 @@
 pipeline {
-    agent{
-        node{
+    agent {
+        node {
             lable "linux1"
         }
     } 
