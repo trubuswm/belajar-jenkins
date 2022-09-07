@@ -4,7 +4,6 @@ pipeline {
             lable "linux1"
         }
     } 
-
     stages {
         stage("hello") {
             steps {
