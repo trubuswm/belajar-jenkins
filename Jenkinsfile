@@ -1,5 +1,10 @@
 pipeline {
-    agent any
+    agent {
+	node {
+          lable " linux1 " 
+}
+}
+
     
     stages {
         stage("hello") {
@@ -8,4 +13,6 @@ pipeline {
             }
         }
     }
-}
+ }
+} 
+
