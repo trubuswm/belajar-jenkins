@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      lable "linux1"
+      lable "linux"
     }
   } 
     stages {
